@@ -1,4 +1,4 @@
-PRICE CARDS - HACKATHON
+**PRICE CARDS - HACKATHON**
 
 El objetivo del reto es diseñar y documentar tarjetas de precio.
 
@@ -6,7 +6,7 @@ Las tarjetas de precios están diseñadas para comparar fácilmente los precios 
 
 En este caso he diseñado unas tarjetas de precio que mantienen un aspecto simple y eficaz. Con una paleta de colores blanca y verde, junto con emoticonos.
 
-Tecnología
+**TECNOLOGÍA**
 
 He trabajado para el maquetado con HTML5, para los estilos he utilizado un framework llamado Bulma el cual me ha permitido trabajar de una forma más rápida y eficaz, logrando un diseño actual y responsive.
 
@@ -14,7 +14,7 @@ Para las animaciones se ha utilizado la librería hecha en JavaScript llamada AO
 
 En cuanto a las validaciones y los cambios de flujo, he hecho uso de JavaScript puro.
 
-Arquitectura de carpetas
+**ARQUITECTURA**
 
 Cierto es que no he hecho uso de una arquitectura escalable, aún así he considerado que el proyecto no requería de algo por el estilo y he seguido una línea muy simple pero a su vez eficaz. 
 
