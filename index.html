@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  <script src="https://kit.fontawesome.com/bb296b8776.js" crossorigin="anonymous"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <title>Price Cards</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="columns is-1 mt-5 is-1 is-variable is-1-mobile is-0-tablet is-3-desktop is-8-widescreen is-2-fullhd">
+      <div class="column is-mobile">
+        <div class="card" 
+        data-aos="fade-right"
+        data-aos-duration="1500">
+          <div class="card-content">
+            <div class="content">
+              <h3 class="heading">Starter</h3>
+              <h2>Free</h2>
+              <h4 class="as-text-weight-light">per month</h4>
+              <hr>
+              <p><i class="fa-solid fa-check mr-2"></i>Full courses library</p>
+              <p><i class="fa-solid fa-check mr-2"></i>A new daily meditation</p>
+              <p><i class="fa-solid fa-check mr-2"></i>Access to the meditation guru</p>
+              <p class="has-text-weight-light"><i class="fa-solid fa-x mr-2"></i>Sleep podcasts and exercises</p>
+              <p class="has-text-weight-light"><i class="fa-solid fa-x mr-2"></i>Mindfulness exercises</p>
+              <p class="has-text-weight-light"><i class="fa-solid fa-x mr-2"></i>Guided meditations</p>
+              <p class="has-text-weight-light"><i class="fa-solid fa-x mr-2"></i>Cooking recipes</p>
+            </div>
+            <button id="myBtn" class="button is-primary is-outlined is-rounded"><i
+                class="fa-solid fa-rocket mr-2"></i>Get Started</button>
+          </div>
+        </div>
+      </div>
+      <div class="column is-mobile">
+        <div class="card"  
+        data-aos="fade-up" 
+        data-aos-duration="1500" style="background-color:hsl(171, 100%, 41%);">
+          <div class="card-content">
+            <div class="content has-text-info-light">
+              <h3 class="heading has-text-info-light">Pro</h3>
+              <h2 class="has-text-info-light">$49</h2>
+              <h4 class="has-text-weight-light has-text-info-light">per month</h4>
+              <hr>
+              <p><i class="fa-solid fa-check mr-2"></i>Full courses library</p>
+              <p><i class="fa-solid fa-check mr-2"></i>A new daily meditation</p>
+              <p><i class="fa-solid fa-check mr-2"></i>Access to the meditation guru</p>
+              <p><i class="fa-solid fa-check mr-2"></i>Sleep podcasts and exercises</p>
+              <p><i class="fa-solid fa-check mr-2"></i>Mindfulness exercises</p>
+              <p class="has-text-weight-light"><i class="fa-solid fa-x mr-2"></i>Guided meditations</p>
+              <p class="has-text-weight-light"><i class="fa-solid fa-x mr-2"></i>Cooking recipes</p>
+            </div>
+            <button id="myBtnPro" class="button is-primary is-inverted is-rounded"><i
+                class="fa-solid fa-user-plus mr-2"></i>Become a Pro</button>
+          </div>
+        </div>
+      </div>
+      <div class="column is-mobile">
+        <div class="card" 
+        data-aos-duration="1500" 
+        data-aos="fade-left">
+          <div class="card-content">
+            <div class="content">
+              <h3 class="heading">Teams</h3>
+              <h2 class="has-text-weight-bold">$99</h2>
+              <h4 class="as-text-weight-light">per month</h4>
+              <hr>
+              <p><i class="fa-solid fa-check mr-2"></i>Full courses library</p>
+              <p><i class="fa-solid fa-check mr-2"></i>A new daily meditation</p>
+              <p><i class="fa-solid fa-check mr-2"></i>Access to the meditation guru</p>
+              <p><i class="fa-solid fa-check mr-2"></i>Sleep podcasts and exercises</p>
+              <p><i class="fa-solid fa-check mr-2"></i>Mindfulness exercises</p>
+              <p><i class="fa-solid fa-check mr-2"></i>Guided meditations</p>
+              <p><i class="fa-solid fa-check mr-2"></i>Cooking recipes</p>
+            </div>
+            <button id="myBtnTeams" class="button is-primary is-outlined is-rounded"><i
+                class="fa-sharp fa-solid fa-people-group mr-2"></i>Get teams</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="myModal" class="modal is-1-mobile">
+      <div class="modal-background"></div>
+      <div class="modal-content">
+        <article class="message mt-5">
+          <div class="message-header" style="background-color:hsl(171, 100%, 41%);">
+            <p>This action requires your email address ⚠️</p>
+          </div>
+          <div class="message-body">
+            <div class="field"
+              <label class="label">Name</label>
+              <div class="control">
+                <input id="inputName" class="input is-primary" type="text" placeholder="Text input">
+              </div>
+              <p id="nameInvalid" class="mt-2 is-danger has-text-danger"></p>
+            </div>
+
+            <div class="field">
+              <label class="label">Email</label>
+              <div class="control has-icons-left has-icons-right">
+                <input id="inputEmail" class="input is-primary" type="email" placeholder="Email input" value="hello@" required>
+                <span class="icon is-small is-left">
+                  <i class="fas fa-envelope"></i>
+                </span>
+                <span id="checkIcon" class="icon is-small is-right"> 
+                    <i class="fa-solid fa-check"></i>
+                </span>
+                <p id="emailErrorValidation" class="mt-2 has-text-danger"></p>
+              </div>
+            </div>
+
+            <div class="field">
+              <div class="control">
+                <label class="checkbox">
+                  <input type="checkbox" checked>
+                  I agree to the <a href="#">terms and conditions</a>
+                </label>
+              </div>
+            </div>
+
+            <div class="field is-grouped">
+              <div class="control">
+                <button type="submit" id="submitModal" class="button is-primary">Submit</button>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+      <button class="modal-close is-large" aria-label="close"></button>
+    </div>
+  </div>
+  <div class="modal is-1-mobile" id="modalSubmit">
+    <div class="modal-background"></div>
+    <div class="modal-card mt-5">
+      <section class="modal-card-body"">
+        <p>Will soon be in contact with you 🎉</p>
+      </section>
+      <footer class="modal-card-foot" style="background-color:hsl(171, 100%, 41%)";>
+        <button id="btnRequest" class="button is-primary is-inverted is-rounded">Ok 👍</button>
+      </footer>
+    </div>
+  </div>
+  <script src="/assets/js/script.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
+ 
