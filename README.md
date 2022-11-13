@@ -16,7 +16,7 @@ En cuanto a las validaciones y los cambios de flujo, he hecho uso de JavaScript 
 
 **ARQUITECTURA**
 
-Cierto es que no he hecho uso de una arquitectura escalable, aún así he considerado que el proyecto no requería de algo por el estilo y he seguido una línea muy simple pero a su vez eficaz. 
+Cierto es que no he hecho uso de una arquitectura muy escalable, aún así he considerado que el proyecto no requería de algo por el estilo y he seguido una línea muy simple pero a su vez eficaz. 
 
 Considero que el principal motivo de esto es por el uso de frameworks como Bulma (no he hecho uso de lenguaje de estilos como puede ser CSS3) o como el uso de librerías de animaciones y por esto el proyecto no requería de más archivos/carpetas.
 
