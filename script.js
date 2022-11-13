@@ -58,7 +58,7 @@ btnSubmit.onclick = function () {
     var inputEmail = document.getElementById("inputEmail").value;
     var inputName = document.getElementById("inputName").value;
     if(inputName == ""){
-        msjErrorValidationName.innerHTML = "El campo 'Nombre' no debe estar vacío"
+        msjErrorValidationName.innerHTML = "The 'Name' field must not be empty"
         return false;
     } else {
         if (validEmail.test(inputEmail)) {
@@ -71,7 +71,7 @@ btnSubmit.onclick = function () {
                 modal.style.display = "none";
             }, 2000)
         } else {
-            msjErrorValidationEmail.innerHTML = "Introduzca un email válido";
+            msjErrorValidationEmail.innerHTML = "Enter a valid email address";
             return false;
         }
     }
