@@ -20,3 +20,9 @@ Cierto es que no he hecho uso de una arquitectura muy escalable, aún así he co
 
 Considero que el principal motivo de esto es por el uso de frameworks como Bulma (no he hecho uso de lenguaje de estilos como puede ser CSS3) o como el uso de librerías de animaciones y por esto el proyecto no requería de más archivos/carpetas.
 
+**CALIDAD DE CÓDIGO**
+
+Code quality by CodeFactor A+
+
+![Codequality-codefactor](https://user-images.githubusercontent.com/96238562/201544774-252afe34-1ae1-4053-9977-5934046ec691.png)
+
