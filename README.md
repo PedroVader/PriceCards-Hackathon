@@ -1,4 +1,4 @@
-**PRICE CARDS - HACKATHON**
+**PRICE CARDS MODULARES - HACKATHON**
 
 El objetivo del reto es diseñar y documentar tarjetas de precio.
 
