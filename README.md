@@ -1,5 +1,7 @@
 **PRICE CARDS MODULARES - HACKATHON**
 
+Para acceder a la página => https://pedrovader.github.io/PriceCards-Hackathon/
+
 El objetivo del reto es maquetar, diseñar y documentar tarjetas de precio.
 
 Las tarjetas de precios están diseñadas para comparar fácilmente los precios de cada suscripción en los sitios web comerciales.Las tablas de precios son un diseño en el que los elementos se enumeran hacia abajo en un sitio web para mostrar sus características disponibles, tales como comparaciones de precios, características, planes de precios, suscripciones, etc.
