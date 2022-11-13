@@ -6,9 +6,6 @@ var btn = document.getElementById("myBtn");
 var btnPro = document.getElementById("myBtnPro");
 var btnTeams = document.getElementById("myBtnTeams");
 
-// get the loading <button>
-var loadingBtn = document.getElementById("loadingBtn");
-
 // get the <button> element submit/request modal
 var btnSubmit = document.getElementById("submitModal");
 var btnRequestModal = document.getElementById("btnRequest");
